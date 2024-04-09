@@ -5,7 +5,7 @@
 
     // To Handle form submission
     document.getElementById('myForm').addEventListener('submit', (e) => {
-        e.preventDefault(); 
+        e.preventDefault();        
 
         const formData = new FormData(e.target);
         const formObject = {};
@@ -18,4 +18,5 @@
         e.target.reset(); 
     });
 });
+
 
